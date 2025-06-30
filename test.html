@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Weather</h2>
+            <div class="weatherInput">
+                <input type="text" name="city" id="cityInput" placeholder="Enter the City Name">
+                <button id="searchBtn">
+                    <i class="fa-solid fa-magnifying-glass" style="color: white;"></i> Search
+                </button>
+                <button id="currentBtn">
+                    <i class="fa-solid fa-location-crosshairs" style="color: #cd3838;"></i> Current Location
+                </button>
+            </div>
+        </div>
+        <div class="weatherData">
+            <div class="weatherContainer">
+
+                <div class="currentWeather cards">
+                    <div class="cardHeader">
+                        <div class="details">
+                            <p>Now</p>
+                            <h2>20 &deg;C</h2>
+                            <p>Haze</p>
+                        </div>
+                        <div class="weatherIcon">
+                            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="cardFooter">
+                        <p><i class="fa-solid fa-calendar-days" style="color: #B197FC;"></i> Date</p>
+                        <p><i class="fa-solid fa-location-dot" style="color: #74C0FC;"></i> Location</p>
+                    </div>
+                </div>
+
+                <div class="todays-highlights cards">
+                    <div class="todays-hourly-highlights">
+                        <h3>Today's Hourly Highlights</h3>
+                        <div class="hourlyForecast">
+                            <div class="hour">
+                                <p>3 AM</p>
+                                <img src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
+                                <p>18 &deg;C</p>
+                            </div>
+                            <div class="hour">
+                                <p>6 AM</p>
+                                <img src="https://openweathermap.org/img/wn/03d@2x.png" alt="">
+                                <p>19 &deg;C</p>
+                            </div>
+                            <div class="hour">
+                                <p>9 AM</p>
+                                <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="">
+                                <p>22 &deg;C</p>
+                            </div>
+                            <div class="hour">
+                                <p>12 PM</p>
+                                <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="">
+                                <p>25 &deg;C</p>
+                            </div>
+                            <div class="hour">
+                                <p>3 PM</p>
+                                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                                <p>23 &deg;C</p>
+                            </div>
+                            <div class="hour">
+                                <p>6 PM</p>
+                                <img src="https://openweathermap.org/img/wn/03d@2x.png" alt="">
+                                <p>20 &deg;C</p>
+                            </div>
+                            <div class="hour">
+                                <p>9 PM</p>
+                                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="">
+                                <p>18 &deg;C</p>
+                            </div>
+                            <div class="hour">
+                                <p>9 PM</p>
+                                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="">
+                                <p>18 &deg;C</p>
+                            </div>
+                            <div class="hour">
+                                <p>9 PM</p>
+                                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="">
+                                <p>18 &deg;C</p>
+                            </div>
+                            <div class="hour">
+                                <p>9 PM</p>
+                                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="">
+                                <p>18 &deg;C</p>
+                            </div>
+                            <div class="hour">
+                                <p>9 PM</p>
+                                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="">
+                                <p>18 &deg;C</p>
+                            </div>
+                            <div class="hour">
+                                <p>9 PM</p>
+                                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="">
+                                <p>18 &deg;C</p>
+                            </div>
+                            <div class="hour">
+                                <p>9 PM</p>
+                                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="">
+                                <p>18 &deg;C</p>
+                            </div>
+                            <div class="hour">
+                                <p>9 PM</p>
+                                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="">
+                                <p>18 &deg;C</p>
+                            </div>
+                            <div class="hour">
+                                <p>9 PM</p>
+                                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="">
+                                <p>18 &deg;C</p>
+                            </div>
+                            <div class="hour">
+                                <p>9 PM</p>
+                                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="">
+                                <p>18 &deg;C</p>
+                            </div>
+                            <div class="hour">
+                                <p>9 PM</p>
+                                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="">
+                                <p>18 &deg;C</p>
+                            </div>
+                            <div class="hour">
+                                <p>9 PM</p>
+                                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="">
+                                <p>18 &deg;C</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="five-day-forecast cards">
+                    <h3>5 Day Forecast</h3>
+                    <div class="forcastWeek">
+                        <div class="day-forcast">
+                            <div class="forecast-Icon">
+                                <img src="https://openweathermap.org/img/wn/02d@2x.png" width="40px" alt="">
+                                <p>20 &deg;C</p>
+                            </div>
+                            <p>1 Nov</p>
+                            <p>Monday</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sunrise-sunset cards">
+                    <h2>Sunrise And Sunset</h2>
+                    <div class="sunrise-sunset-container">
+                        <div class=" sunrise">
+                            <i class="fa-solid fa-sun" style="color: #FFD43B;"></i>
+                            <h3>Sunrise</h3>
+                            <h3>6:20 AM</h3>
+                        </div>
+                        <div class="vertical-line"></div>  <!-- Vertical Line -->
+                        <div class="sunset">
+                            <i class="fa-solid fa-moon" style="color: #FFD43B;"></i>
+                            <h3>Sunset</h3>
+                            <h3>6:45 PM</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="air-quality cards "> 
+                    <h3>Air Quality</h3>
+                    <div class="aqi-container">
+                        <div class="aqi-value" id="aqiValue">
+                            <i class="fa-solid fa-smog" style="color: rgb(255, 255, 255);"></i> 
+                            AQI: <span id="aqiNumber"> 75 </span>
+                        </div>
+                        <div class="aqi-condition">Moderate</div>
+                    </div>
+                </div>
+                
+
+                <div class="humidity cards">
+                    <h3>Humidity</h3>
+                    <i class="fa-solid fa-water"></i>
+                    <p>60%</p>
+                </div>
+                <div class="pressure cards">
+                    <h3>Pressure</h3>
+                    <i class="fa-solid fa-gauge-high"></i>
+                    <p>1013 hPa</p>
+                </div>
+                <div class="visibility cards">
+                    <h3>Visibility</h3>
+                    <i class="fa-solid fa-eye"></i>
+                    <p>10 km</p>
+                </div>
+                <div class="wind-speed cards">
+                    <h3>Wind Speed</h3>
+                    <i class="fa-solid fa-wind"></i>
+                    <p>15 km/h</p>
+                </div>
+                <div class="feels-like cards">
+                    <h3>Feels Like</h3>
+                    <i class="fa-solid fa-temperature-half"></i>
+                    <p>25°C</p>
+                </div>
+                <div class="precipitation cards">
+                    <h3>Precipitation</h3>
+                    <i class="fa-solid fa-cloud-rain"></i>
+                    <p>80%</p> 
+                </div>
+                <div class="uv-index cards">
+                    <h3>UV Index</h3>
+                    <div class="uv-container">
+                        <div class="uv-value">
+                            <i class="fa-solid fa-sun"></i> <span id="uvNumber">6</span>
+                        </div>
+                        <div class="uv-condition" id="uvCondition">High</div>
+                    </div>
+                </div>
+                
+                
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
